@@ -142,6 +142,23 @@ mvn --version
 brew install gradle
 ```
 
+![Gradle](Images/gradle.png)
+
+Add gradle to PATH
+
+```bash
+echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/gradle/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+Verify gradle is working
+
+```bash
+gradle --version
+```
+
+![verify gradle](Images/verifygradle.png)
+
 7. **Install Node.js and NPM**
 
 ```bash
