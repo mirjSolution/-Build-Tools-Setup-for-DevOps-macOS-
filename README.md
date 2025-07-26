@@ -139,7 +139,7 @@ mvn --version
 6. **Install Gradle**
 
 ```bash
-brew install gradle
+brew install --ignore-dependencies gradle
 ```
 
 ![Gradle](Images/gradle.png)
@@ -164,6 +164,17 @@ gradle --version
 ```bash
 brew install node
 ```
+
+![node and npm](Images/node.png)
+
+Verify node and npm package
+
+```bash
+node -v
+npm -v
+```
+
+![verify node and npm](Images/verifynode.png)
 
 ---
 
