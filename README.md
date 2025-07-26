@@ -1,6 +1,6 @@
 # 🛠️ Build Tools Setup for DevOps (macOS)
 
-This guide outlines the installation and setup of essential **build tools** and editors required for working with **Java** and **JavaScript** applications as part of your DevOps workflow.
+This guide outlines the installation and setup of essential **build tools** and editors required for working with **Java** and **JavaScript** applications as part of our DevOps workflow.
 
 ---
 
@@ -98,7 +98,7 @@ brew install openjdk@17
 
 ![InstallJDK](Images/installjdk.png)
 
-Add Java to zsh Profile
+Add Java to PATH
 
 ```bash
 echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
