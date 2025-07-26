@@ -96,16 +96,42 @@ source ~/.zshrc
 brew install openjdk@17
 ```
 
-Create symbolic link:
+![InstallJDK](Images/installjdk.png)
+
+Add Java to zsh Profile
 
 ```bash
-sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
+echo 'export JAVA_HOME="/home/linuxbrew/.linuxbrew/opt/openjdk@17"' >> ~/.zshrc
+source ~/.zshrc
 ```
+
+Verify java works
+
+```bash
+java --version
+```
+
+![Java](Images/java.png)
 
 5. **Install Maven**
 
 ```bash
-brew install maven --ignore-dependencies
+brew install --ignore-dependencies maven
+```
+
+Add maven to PATH
+
+```bash
+echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/maven/bin:$PATH"' >> ~/.zshrc
+echo 'export MAVEN_HOME="/home/linuxbrew/.linuxbrew/opt/maven"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+Verify maven working
+
+```bash
+mvn --version
 ```
 
 6. **Install Gradle**
