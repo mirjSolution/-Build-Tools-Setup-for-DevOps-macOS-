@@ -77,6 +77,19 @@ sudo apt install build-essential curl file git -y
 brew install git
 ```
 
+![Git install](Images/installgit.png)
+
+**_note!!!_** if you received error "command not found"
+
+- Add Homebrew to zsh Profile
+
+```bash
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+![Brew Error](Images/brewnotfound1.png)
+
 4. **Install Java (OpenJDK 17)**
 
 ```bash
@@ -86,14 +99,14 @@ brew install openjdk@17
 Create symbolic link:
 
 ```bash
-sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 ```
 
 5. **Install Maven**
 
-   ```bash
-   brew install maven --ignore-dependencies
-   ```
+```bash
+brew install maven --ignore-dependencies
+```
 
 6. **Install Gradle**
 
