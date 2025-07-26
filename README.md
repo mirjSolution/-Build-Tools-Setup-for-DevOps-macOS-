@@ -112,7 +112,7 @@ Verify java works
 java --version
 ```
 
-![Java](Images/java.png)
+![Java](Images/Java.png)
 
 5. **Install Maven**
 
@@ -133,6 +133,8 @@ Verify maven working
 ```bash
 mvn --version
 ```
+
+![Maven](Images/maven.png)
 
 6. **Install Gradle**
 
