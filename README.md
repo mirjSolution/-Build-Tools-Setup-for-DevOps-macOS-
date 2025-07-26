@@ -61,7 +61,7 @@ intellij-idea-community
 
 2. **Install Homebrew**
 
-![IntelliJ IDEA](Images/intellij.gif)
+![Brew](Images/brew.gif)
 
 ```bash
 sudo apt install build-essential curl file git -y
