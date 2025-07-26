@@ -164,7 +164,7 @@ brew install node
 
 ## 🧉 Key Takeaway
 
-Understanding and setting up build tools is **essential for DevOps engineers** to package applications, manage dependencies, and support CI/CD workflows. This setup ensures you are fully equipped to follow hands-on demos in the module and manage build pipelines confidently.
+Understanding and setting up build tools is **essential for DevOps engineers** to package applications, manage dependencies, and support CI/CD workflows.
 
 ---
 
